@@ -1,0 +1,129 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+#typing-text {
+    font-size: 1.2rem;
+    font-family: "Courier New";
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Project Card */
+.project-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0061ff; 
+}
+
+/* Fade-in animation for sections */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadeIn 1.5s ease-in;
+}
+
+/* delay for different sections */
+#education {
+    animation-delay: 0.5s;
+}
+
+#skills {
+    animation-delay: 1s;
+}
+
+#extracurriculars {
+    animation-delay: 1.5s;
+}
+
+#roles {
+    animation-delay: 2s;
+}
+
+/* Roles Section Styling */
+.roles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.role-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.role-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
